@@ -1,0 +1,15 @@
+00:11:52 **** Incremental Build of configuration Debug for project LittleProject ****
+make all 
+Building file: ../src/LittleProject.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LittleProject.d" -MT"src/LittleProject.d" -o "src/LittleProject.o" "../src/LittleProject.cpp"
+../src/LittleProject.cpp:12:17: error: ‘Cat’ is not a namespace-name
+ using namespace Cat;
+                 ^
+../src/LittleProject.cpp:12:20: error: expected namespace-name before ‘;’ token
+ using namespace Cat;
+                    ^
+make: *** [src/LittleProject.o] Error 1
+
+00:11:52 Build Finished (took 252ms)
+

@@ -1,0 +1,18 @@
+/*
+ * Cat.cpp
+ *
+ *  Created on: 22 Feb 2014
+ *      Author: aline
+ */
+
+#include "Cat.h"
+
+Cat::Cat() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Cat::~Cat() {
+	// TODO Auto-generated destructor stub
+}
+
