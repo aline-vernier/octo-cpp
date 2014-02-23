@@ -1,4 +1,4 @@
 octo-cpp
 ========
 
-C++ first steps
+aline's C++ dev
