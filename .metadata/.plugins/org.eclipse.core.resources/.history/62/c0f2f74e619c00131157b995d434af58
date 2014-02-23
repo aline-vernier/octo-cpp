@@ -14,6 +14,6 @@ using namespace std;
 int main() {
 	Cat Lou();
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	Cat.Meow();
+
 	return 0;
 }
