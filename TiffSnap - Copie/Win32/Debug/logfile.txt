@@ -1,0 +1,6 @@
+starting this prog
+finished loading
+assert successful
+ok, successfully assigned format to 16 bits
+snapand save ok
+success!

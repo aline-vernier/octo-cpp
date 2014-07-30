@@ -1,0 +1,24 @@
+﻿Build started 30/07/2014 18:10:03.
+     1>Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\TiffSnap - Copie\TiffSnap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\Headers /IC:\Windows\System32 /I"C:\Program Files\QImaging\SDK\Headers" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\vernier\documents\visual studio 2012\projects\tiffsnap - copie\src\main.cpp(21): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\vernier\documents\visual studio 2012\projects\tiffsnap - copie\src\main.cpp(25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\vernier\documents\visual studio 2012\projects\tiffsnap - copie\src\main.cpp(191): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\vernier\documents\visual studio 2012\projects\tiffsnap - copie\src\main.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\vernier\documents\visual studio 2012\projects\tiffsnap - copie\src\main.cpp(205): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\TiffSnap.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\libs\i386 /LIBPATH:lib /LIBPATH:"C:\Program Files\QImaging\SDK\libs\i386" /LIBPATH:C:\Windows\System32 /LTCG:STATUS odbc32.lib odbccp32.lib "libtiff-v3.5.5.lib" qcamdriver.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vernier\Documents\Visual Studio 2012\Projects\TiffSnap - Copie\Win32\Debug\TiffSnap.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\TiffSnap.lib" /MACHINE:X86 /SAFESEH:NO Win32\Debug\FileTiff.obj
+         Win32\Debug\main.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>FileTiff.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         TiffSnap.vcxproj -> C:\Users\vernier\Documents\Visual Studio 2012\Projects\TiffSnap - Copie\Win32\Debug\TiffSnap.exe
+     1>Done Building Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\TiffSnap - Copie\TiffSnap.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
