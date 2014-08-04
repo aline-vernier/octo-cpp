@@ -1,0 +1,10 @@
+﻿Build started 31/07/2014 14:20:18.
+     1>Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\EasyDLL\EasyDLL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Windows\System32 /I"C:\Program Files\QImaging\SDK\Headers" /ZI /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EASYDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\EasyDLL.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+     1>cl : Command line error D8016: '/ZI' and '/GL' command-line options are incompatible
+     1>Done Building Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\EasyDLL\EasyDLL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37

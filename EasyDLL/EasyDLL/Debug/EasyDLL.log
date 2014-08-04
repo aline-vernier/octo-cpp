@@ -1,0 +1,19 @@
+﻿Build started 04/08/2014 11:27:33.
+     1>Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\EasyDLL\EasyDLL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Windows\System32 /I"C:\Program Files\QImaging\SDK\Headers" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EASYDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\EasyDLL.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EasyDLL.cpp
+         EasyDLL.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\Debug\EasyDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\QImaging\SDK\libs\i386" /LIBPATH:C:\Windows\System32 /LTCG:STATUS odbc32.lib odbccp32.lib qcamdriver.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\Debug\EasyDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\Debug\EasyDLL.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\EasyDLL.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>dllmain.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\Debug\EasyDLL.lib and object C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\Debug\EasyDLL.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         EasyDLL.vcxproj -> C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\Debug\EasyDLL.dll
+     1>Done Building Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\EasyDLL\EasyDLL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.73

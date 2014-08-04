@@ -1,0 +1,10 @@
+﻿Build started 31/07/2014 12:19:45.
+     1>Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\useEasyDLL\useEasyDLL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Windows\System32 /I"C:\Program Files\QImaging\SDK\Headers" /ZI /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\useEasyDLL.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+     1>cl : Command line error D8016: '/ZI' and '/O2' command-line options are incompatible
+     1>Done Building Project "C:\Users\vernier\Documents\Visual Studio 2012\Projects\EasyDLL\useEasyDLL\useEasyDLL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17
